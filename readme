@@ -1,3 +1,0 @@
-cd  callgraph_flowdroid
-先在sootOutput下创建outputdir（例：family/variety）
-java -cp .:soot-infoflow-cmd-jar-with-dependencies.jar App xxx.apk /usr/lib/android-sdk/platforms [outputdir]
