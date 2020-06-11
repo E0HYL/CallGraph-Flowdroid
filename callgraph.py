@@ -3,9 +3,10 @@ import os
 from subprocess import Popen, PIPE
 import shlex
 
-base_dir = "/data/E0/AndroidMal/Datasets/Malware/"
+# need to be modified
+base_dir = "./Datasets/"
 db_path = base_dir + "AMD"
-cg_output = "/data/E0/AndroidMal/callgraph_flowdroid/sootOutput/"
+cg_output = "./callgraph_flowdroid/sootOutput/"
 
 def list_all_files(rootdir):
     import os
